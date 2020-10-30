@@ -1,0 +1,49 @@
+body {
+	background-color: rgb(255, 247, 244);
+ 	margin-top:100px;
+ 	margin-left:500px;
+ 	margin-right:500px;
+}
+
+code {
+ 	font-family: Consolas,"courier new";
+  	color: navy;
+  	background-color: #EAEDED;
+  	padding: 2px;
+  	font-size: 70%;
+}
+
+h1 {
+ 	font-weight: 400;
+  	font-size: 30pt;
+}
+
+/*li {
+  	margin: 10px 0;
+}*/
+
+#footer{
+	position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.details {
+  float: left;
+  width: 70%;
+  padding: 0px;
+  text-align: justify;
+}
+
+.photo {
+  float: right;
+  width: 0%;
+  padding: 0px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
