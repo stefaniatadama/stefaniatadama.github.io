@@ -77,8 +77,12 @@ code {
   /*text-align: justify;*/
 }
 
-li:not(:last-child) {
+.links li:not(:last-child) {
   margin-bottom: 10px;
+}
+
+.talks li:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 /*
