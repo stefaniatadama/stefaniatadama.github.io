@@ -1,8 +1,8 @@
 body {
 	background-color: rgb(255, 247, 244);
  	margin-top:5%;
- 	margin-left:25%;
- 	margin-right:25%;
+ 	margin-left:20%;
+ 	margin-right:20%;
 }
 
 h1 {
@@ -82,6 +82,10 @@ code {
 }
 
 .talks li:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.pubs li:not(:last-child) {
   margin-bottom: 30px;
 }
 
