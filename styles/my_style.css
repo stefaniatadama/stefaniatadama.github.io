@@ -26,6 +26,14 @@ code {
     right: 5px;
 }
 
+#left-footer{
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    font-size: 10px;
+
+}
+
 .about {
   float: left;
   width: 70%;
