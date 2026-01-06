@@ -97,6 +97,11 @@ code {
   margin-bottom: 30px;
 }
 
+.grey-box {
+  display: inline-block;
+  background-color: #c4c2c2;
+}
+
 /*
 .centered-element {
   margin: 0;
